@@ -1,0 +1,76 @@
+header.primary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(216, 216, 216);
+  height: 20px;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+header.primary > ul {
+  float: left;
+  padding-left: 10px;
+  height: 15px;
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+header.primary > ul > li {
+  height: 10px;
+  display: inline-block;
+}
+
+header.primary > ul > li > p {
+  font-size: 10px;
+  margin: 0;
+}
+
+header.secondary {
+  background-color: #aacbeb;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 50px;
+  margin-top: 13px;
+  border-bottom: 1px solid #29b2e9;
+}
+
+header.secondary > .container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+header.secondary > .container > .image-container {
+  width: 40px;
+  height: 40px;
+  margin-top: 11px;
+  position: fixed;
+  left: 5px;
+}
+
+header.secondary > .container > .image-container img {
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  left: 5px;
+}
+
+header.secondary > .container > .flex-element {
+  height: 15px;
+  flex-basis: auto;
+  margin-left: 15px;
+  margin-top: 30px;
+  padding-bottom: -10px;
+  background-color: #dceaf7;
+  padding: 5px 5px 0 5px;
+}
+
+header.secondary > .container > .site-title {
+  margin: 0;
+  line-height: 1;
+  margin-left: 45px;
+}
+
